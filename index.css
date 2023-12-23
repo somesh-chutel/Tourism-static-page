@@ -1,0 +1,43 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-container{
+    background-image: url('/images/ocean_img.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.card{
+    background-color: #ffffff;
+    background-size: cover;
+    text-align: center;
+    height: 150px;
+    padding: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.heading{
+    font-size: 35px;
+    color: blue;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.text{
+    font-size: 17px;
+    font-weight: lighter;
+    margin-bottom: 20px;
+
+}
+.btn{
+    height: 30px;
+    width: 95px;
+    padding: 5px;
+    background-color: aqua;
+    border-radius: 15px;
+    border: none;
+    color: #ffffff;
+}
